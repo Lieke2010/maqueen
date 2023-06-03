@@ -1,0 +1,10 @@
+basic.forever(function () {
+    null.turn(Direction.Right, 90)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 33)
+    basic.pause(1000)
+    maqueen.motorStop(maqueen.Motors.All)
+    null.turn(Direction.Right, 90)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 33)
+    basic.pause(1000)
+    maqueen.motorStop(maqueen.Motors.All)
+})
